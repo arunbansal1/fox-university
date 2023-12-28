@@ -1,23 +1,30 @@
-import logo from './logo.svg';
 import './App.css';
+import 'bootstrap/dist/css/bootstrap.min.css';
+import Header from './component/Header';
+import 'bootstrap/dist/js/bootstrap';
+import UniversitySlider from './component/UniversitySlider';
+import WhatIsOffer from './component/WhatIsOffer';
+import FoxUniversity from './component/FoxUniversity';
+import OurCourses from './component/OurCourses';
+import CertifiedTeacher from './component/CertifiedTeacher';
+import RequestForm from './component/RequestForm';
+import RecentBlog from './component/RecentBlog';
+import StudentSays from './component/StudentSays';
+import Footer from './component/Footer';
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div>
+      <Header/>
+      <UniversitySlider/>
+      <WhatIsOffer/>
+      <FoxUniversity/>
+      <OurCourses/>
+      <CertifiedTeacher/>
+      <RequestForm/>
+      <RecentBlog/>
+      <StudentSays/>
+      <Footer/>
     </div>
   );
 }

@@ -1,38 +1,309 @@
-.App {
-  text-align: center;
+.primary-bg{
+    background-color:#fd5f00;
+}
+.primary-bg2{
+    background-color: #0d1128;
+}
+.btn-orange{
+    padding:8px 15px;
+    background-color:#fd5f00;
+    text-decoration:none;
+    color:#fff;
+    border-radius:20px;
+}
+.btn-orange:hover{
+    color:#fd5f00;
+    background-color:#fff;
+    border:1px solid#fd5f00;
+}
+.btn-orange-big{
+    width: 100%;
+    background-color: #fd5f00;
+    text-decoration: none;
+    border: none;
+    color: #fff;
+    border-radius: 40px;
+    font-size: 20px;
+    text-transform: uppercase;
+    outline: none;
+    text-align: center;
+    padding-top: 15px;
+    padding-bottom: 15px;
+
+}
+.btn-orange-big:hover{
+    background-color:transparent;
+    border:1px solid#fd5f00;
+    color:#fd5f00;
+}
+.primary-text{
+    color:#fd5f00;
+}
+.font{
+    font-weight:900;
+    font-size: 38px;
+    color:red;
+    line-height:1;
+}
+.color-icon{
+    color:#fd5f00;
+}
+.button{
+    background-color:#fd5f00;
+    border:1px solid #fd5f00;
+    padding:5px 12px;
+    color:#fff;
+}
+.bg-dark{
+    background-color:#000;
+}
+.navbar-width{
+    width:1110px;
+}
+.navlink:hover{
+    color:#fd5f00
+}
+input[type='text']:focus{
+    outline:none;
+    box-shadow:none;
+}
+.img-carousel{
+    height:600px;
+    position: relative;
+    background-size:cover;
+    background-position: top center;
+}
+.carousel-inner-overlay{
+    background-color:#000;
+    background: -webkit-linear-gradient(45deg, #0d1128 0%, #fd6100 100%);
+    position: absolute;
+    top:0;
+    left:0;
+    right:0;
+    bottom:0;
+    height:600px;
+    opacity: 0.7;
+}
+.carousel-inner-content{
+    position:absolute;
+    top:200px;
+    /* left:150px; */
+    z-index:1;
+    color:#fff;
+}
+.carousel-item, .carousel-item img{
+    height: 100%;
+    object-fit: cover;
+    object-position: top;
+}
+.carousel-inner-header{
+    font-size:50px;
+}
+.slider-button{
+    background-color:#fd6100;
+    padding:17px 30px;
+    text-decoration:none;
+    color:white;
+    border-radius:25px;
+}
+.nav-item{
+    padding-right: 20px;
+}
+.p-6{
+    padding:70px;
+}
+.fs-7{
+    font-size:18px;    
+}
+.icon-size{
+    font-size:50px;
+}
+.offer-icon-size{
+    font-size:35px;
+    color:#fff;
+}
+.icon-box{
+    height:80px;
+    width:80px;
+    border-radius:50%;
+    background-color: #fd5f00;
+}
+.offer-img{
+    height:100%;
+    width:100%;
+    object-fit: cover;
+
+}
+.fox-university-image{
+    position: relative;
+    background-attachment: fixed;
+    background-image:url('../public/images/bg_3.jpg');
+    /* height:700px;     */
+    width:100%;
+    background-size: cover;
+    background-position: center center;  
+}
+.fox-university-center-images{
+    height: 100%;
+    width: 100%;
+    position: relative;
+    object-fit: cover;
+}
+.fox-university-video-image{
+    position: absolute;
+    height: 80px;
+    width: 80px;
+    border-radius: 40px;
+    top: 50%;
+    left: 50%;
+    padding-top: 25px;
+    background-color: #fff;
+    text-align: center;
+    transform: translate(-50%, -50%);
+}
+.fox-university-overlay{
+    background-color:#000;
+    background: -webkit-linear-gradient(45deg, #0d1128 0%, #fd6100 100%);
+    position: absolute;
+    top:0;
+    left:0;
+    right:0;
+    bottom:0;
+    opacity: 0.8;   
+}
+.fox-university-content{
+    top:150px;
+    left:170px;
+    color:#fff;
+    padding: 80px 0;
+}
+.fox-university-description{
+    line-height:33px;
+}
+.img-size-card{
+    height:290px;
+    position: relative;
+}
+.img-calander{
+    position: absolute;
+    background-color: #5d50c6;
+    padding:5px;
+    top:190px;
+    color:#fff;
+}
+.card-img-size{
+    height:400px;
+}
+.request-form-image{
+    background-image:url('../public/images/bg_5.jpg');
+    /* height:600px; */
+    background-size:cover;
+    background-attachment:fixed;
+    position: relative;
+    padding: 100px 0;
+}
+.request-form-overlay{
+    /* height:600px; */
+    background-color:#000;
+    background: -webkit-linear-gradient(55deg,#fd6100 0%, #0d1128  100%);
+    position: absolute;
+    top:0;
+    left:0;
+    right:0;
+    bottom:0;
+    opacity: 0.8;   
+}
+.input{
+    width:100%;
+    height:60px;
+    border:none;
+    border-bottom:1px solid grey;
+    outline:none;
+    background-color:transparent;
+    margin-bottom: 15px;
+}
+::placeholder{
+    color:white
+}
+.bg-overlay{
+    position:absolute;
+    top:0;
+    left:0;
+    right:0;
+    bottom:0;
+    background-color: #fff;
+    opacity:0.9;
+}
+.course-img{
+    height:379px;
+    width:100%;  
+    object-fit:cover;
+    background-position:center center;
+}
+.footer-bg{
+    background-color: #232323;
+}
+.footer li{
+    list-style:none;
+    margin:20px 0px;
+}
+.footer{
+    margin-top:30px;
+    padding:0px;
+}
+.footer-img{
+    height:70px;
+    width:70px;
+}
+.footer-icon{
+    font-size:12px;
+    color:grey
+}
+.footer-links li{
+    list-style:none;
+    padding:2px;
+}
+.footer-link{
+    text-decoration:none;
+    color:lightgrey;
+}
+.footer-input{
+    width:230px;
+    height:55px;
+    outline:none;
+    border:none;
+    text-align: center;
+    color:white;
+    font-size:17px;
+}
+.footer-input-type{
+    background-color:#666666; 
+    
+}
+.footer-input-button{
+    background-color:#5d50c6;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.footer-input-button:hover{
+    background-color:#fd5f00;
+}
+.footer-socialmedia-link{
+    height:100px;
+    width:100px;
+    border-radius:50%;
+    background-color:#666666;
+}
+.section-course {
+    padding-top: 100px;
+    padding-bottom: 100px;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+@media screen and (min-width: 992px){
+    .w-lg-25{
+        width: 25% !important;
+    }
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.section-course .card{
+    margin-bottom: 20px;
 }
