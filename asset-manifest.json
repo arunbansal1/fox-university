@@ -1,0 +1,17 @@
+{
+  "files": {
+    "main.css": "/fox-university/static/css/main.43a96663.css",
+    "main.js": "/fox-university/static/js/main.0f40d885.js",
+    "static/js/787.258f4fcf.chunk.js": "/fox-university/static/js/787.258f4fcf.chunk.js",
+    "static/media/bg_3.jpg": "/fox-university/static/media/bg_3.5ec8690755b8fa2a2325.jpg",
+    "static/media/bg_5.jpg": "/fox-university/static/media/bg_5.6712f5fd73a2d5c3e9d2.jpg",
+    "index.html": "/fox-university/index.html",
+    "main.43a96663.css.map": "/fox-university/static/css/main.43a96663.css.map",
+    "main.0f40d885.js.map": "/fox-university/static/js/main.0f40d885.js.map",
+    "787.258f4fcf.chunk.js.map": "/fox-university/static/js/787.258f4fcf.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.43a96663.css",
+    "static/js/main.0f40d885.js"
+  ]
+}
